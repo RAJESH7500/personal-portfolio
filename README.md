@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website<br/>
-  <a href="https://soumyajit.vercel.app/" target="_blank">rajesh.tech</a>
+  <a href="https://personal-portfolio-2psm.onrender.com/" target="_blank">rajesh.tech</a>
 </h2>
 <div align="center">
   <h1>Desktop view</h1>
