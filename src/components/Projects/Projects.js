@@ -1,10 +1,12 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import ProjectCard from "./ProjectCards";
-import Particle from "../Particle";
-import foodTech from "../../Assets/Projects/food-tech.jpeg";
-import devConnector from "../../Assets/Projects/dev-connector.jpeg";
-import digitClf from "../../Assets/Projects/digit-clg.jpeg";
+import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+import ProjectCard from './ProjectCards';
+import Particle from '../Particle';
+import timesDrive from '../../Assets/Projects/times-drive.png';
+import unilist from '../../Assets/Projects/unilist.png';
+import foodTech from '../../Assets/Projects/food-tech.jpeg';
+import devConnector from '../../Assets/Projects/dev-connector.jpeg';
+import digitClf from '../../Assets/Projects/digit-clg.jpeg';
 
 function Projects() {
   return (
@@ -14,10 +16,30 @@ function Projects() {
         <h1 className="project-heading">
           My personal <strong className="purple">Projects </strong>
         </h1>
-        <p style={{ color: "white" }}>
+        <p style={{ color: 'white' }}>
           Here are a few projects I've build so far
         </p>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={timesDrive}
+              isBlog={false}
+              title="Times Drive"
+              description="Developed Times Drive, a platform that showcases detailed information about cars and bikes. Built with React.js, incorporating both Server-Side Rendering (SSR) and Client-Side Rendering (CSR) for enhanced performance and dynamic content delivery."
+              ghLink={null}
+              demoLink="https://www.timesdrive.in/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={unilist}
+              isBlog={false}
+              title="Unilist"
+              description="Developed Unilist, a website that provides comprehensive information about schools and colleges. Built using Next.js, leveraging both Server-Side Rendering (SSR) and Client-Side Rendering (CSR) for optimized performance and seamless user experience."
+              ghLink={null}
+              demoLink="https://www.unilist.in/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={devConnector}

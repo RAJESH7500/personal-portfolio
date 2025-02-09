@@ -1,13 +1,13 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
-import Tilt from "react-parallax-tilt";
+import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+import myImg from '../../Assets/avatar.svg';
+import Tilt from 'react-parallax-tilt';
 import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+} from 'react-icons/ai';
+import { FaLinkedinIn } from 'react-icons/fa';
 
 function Home2() {
   return (
@@ -15,7 +15,7 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
+            <h1 style={{ fontSize: '2.6em' }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
@@ -32,10 +32,10 @@ function Home2() {
               My field of Interest's are
               <i>
                 <b className="purple">
-                  {" "}
+                  {' '}
                   Building & designing the web application with user friendly
-                  interface{" "}
-                </b>{" "}
+                  interface{' '}
+                </b>{' '}
                 and also have a passion of <b className="purple">Teaching</b>
               </i>
               <br />
@@ -44,7 +44,7 @@ function Home2() {
               with <b className="purple">Node.js, Exress.js</b> and
               <i>
                 <b className="purple">
-                  {" "}
+                  {' '}
                   Modern Javascript Library and Frameworks
                 </b>
               </i>
@@ -79,7 +79,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  style={{ pointerEvents: "none" }}
+                  style={{ pointerEvents: 'none' }}
                   href="https://twitter.com"
                   target="_blank"
                   rel="noreferrer"

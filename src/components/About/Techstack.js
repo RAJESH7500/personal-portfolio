@@ -1,6 +1,6 @@
-import React from "react";
-import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
+import React from 'react';
+import { Col, Row } from 'react-bootstrap';
+import { CgCPlusPlus } from 'react-icons/cg';
 import {
   DiJavascript1,
   DiReact,
@@ -9,12 +9,12 @@ import {
   DiPython,
   DiGit,
   DiJava,
-} from "react-icons/di";
-import { SiFirebase, SiNextdotjs, SiPostgresql } from "react-icons/si";
+} from 'react-icons/di';
+import { SiFirebase, SiNextdotjs, SiPostgresql } from 'react-icons/si';
 
 function Techstack() {
   return (
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+    <Row style={{ justifyContent: 'center', paddingBottom: '50px' }}>
       <Col xs={4} md={2} className="tech-icons">
         <CgCPlusPlus />
       </Col>

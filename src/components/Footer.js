@@ -1,11 +1,11 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
 import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+} from 'react-icons/ai';
+import { FaLinkedinIn } from 'react-icons/fa';
 
 function Footer() {
   let date = new Date();
@@ -17,14 +17,14 @@ function Footer() {
           <h3>Designed and Developed by Rajesh Kumar</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} RB</h3>
+          <h3>Copyright © {year} RK</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
               <a
                 href="https://github.com/RAJESH7500"
-                style={{ color: "white" }}
+                style={{ color: 'white' }}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -33,7 +33,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                style={{ pointerEvents: "none", color: "white" }}
+                style={{ pointerEvents: 'none', color: 'white' }}
                 href="#twitter"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -44,7 +44,7 @@ function Footer() {
             <li className="social-icons">
               <a
                 href="https://www.linkedin.com/in/rajesh-kumar-1b41631b3/"
-                style={{ color: "white" }}
+                style={{ color: 'white' }}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -54,7 +54,7 @@ function Footer() {
             <li className="social-icons">
               <a
                 href="https://www.instagram.com/me_rajesh_verma/"
-                style={{ color: "white" }}
+                style={{ color: 'white' }}
                 target="_blank"
                 rel="noopener noreferrer"
               >
