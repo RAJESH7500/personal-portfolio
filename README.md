@@ -4,9 +4,9 @@
 </h2>
 <div align="center">
   <h1>Desktop view</h1>
-  <img alt="Demo" src="./Images/readme-desktop.jpeg" />
+  <img alt="Demo" src="./Images/desktop.png" />
   <h1>Mobile view</h1>
-  <img alt="Demo" src="./Images/readme-mobile.jpeg" />
+  <img alt="Demo" src="./Images/mobile.png" />
 </div>
 
 <br/>
